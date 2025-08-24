@@ -1,0 +1,36 @@
+{
+  "name": "note-taking-app-api",
+  "version": "1.0.0",
+  "description": "A backend for a note-taking application",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "note-taking-app",
+    "backend",
+    "api",
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "upstash",
+    "rate-limit",
+    "cors"
+  ],
+  "author": "mohamed-abdelhafiz-dev",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@upstash/ratelimit": "^2.0.6",
+    "@upstash/redis": "^1.35.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
